@@ -1,0 +1,89 @@
+/* Whole MENU */
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 200px auto;
+}
+
+#frmMenu {
+    width: 800px;
+    height: 200px;
+    margin-left: -150px;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float:right;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+/* Cart */
+#cart {
+    top: 0;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+}
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float:right;
+}
+
+/* Button to order */
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    padding: 0px 5px;
+    width: 200px;
+    height: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-color: rgba(255, 0, 0, 0.463);
+
+}
+
+#btnOrder:hover {
+    cursor: pointer;
+    background-color: rgba(195, 191, 191, 0.43);
+    color: white;
+}
+
+/* BG color to <body> */
+body {
+    background-color: rgba(158, 5, 5, 0.659);
+    color:rgb(209, 200, 200);
+}
+
+/* H1 and H3Element */
+h1, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.left, .right, .middle{
+    font-family: 'Courier New', Courier, monospace;
+}
