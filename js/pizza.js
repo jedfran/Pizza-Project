@@ -37,7 +37,7 @@ function getReceipt() {
     
 };
 
-// MEAT TOPPINGS --------------------------//
+// MEAT and VEGI TOPPINGS --------------------------//
 function getTopping(runningTotal,text1) {
     var toppingTotal = 0;
     var selectedTopping = [];
